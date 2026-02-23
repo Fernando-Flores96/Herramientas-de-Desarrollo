@@ -10,7 +10,7 @@
 
 https://git-scm.com/
 
-Comando para verificar version 
+Verificar version desde consola con:
 
 ```bash
 git --version
@@ -24,6 +24,12 @@ https://github.com/
 
 https://www.apachefriends.org/download.html
 
+Verificar version de PHP desde consola con:
+
+```bash
+php -v
+```
+
 ## 📌 5. Instalar composer 
 
 https://getcomposer.org/
@@ -31,6 +37,12 @@ https://getcomposer.org/
 ## 📌 6. Instalar Node.js Version >= 24
 
 https://nodejs.org/en/download
+
+Verificar version de Node desde consola con:
+
+```bash
+node -v
+```
 
 ## 📌 7. Instalar Postman
 
