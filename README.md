@@ -1,167 +1,43 @@
-# 🚀 Requerimientos para Desarrollar con Laravel
-
-Este documento describe los requisitos necesarios para configurar un entorno de desarrollo con Laravel en un entorno local.
-
+# Herramientas de Desarrollo
 ---
 
 ## 📌 1. Sistema Operativo
-
 - Windows 10 / 11 (64 bits)
-- Linux (Ubuntu recomendado)
+- Linux
 - macOS
-
 ---
+## 📌 2. Instalar Git 
 
-## 📌 2. Servidor Local
+https://git-scm.com/
 
-Se recomienda utilizar **XAMPP** que incluye:
-
-- Apache
-- MySQL / MariaDB
-- PHP
-
-Asegurarse de que estén activos:
-
-- ✅ Apache
-- ✅ MySQL
-
----
-
-## 📌 3. PHP
-
-- Versión mínima requerida: **8.1**
-- Versión recomendada: **8.2 o 8.3**
-
-Verificar versión instalada:
-
-```bash
-php -v
-```
-
-### Extensiones necesarias habilitadas en `php.ini`:
-
-- OpenSSL
-- PDO
-- Mbstring
-- Tokenizer
-- XML
-- Ctype
-- JSON
-- BCMath
-- Fileinfo
-
----
-
-## 📌 4. Composer
-
-Administrador de dependencias de PHP.
-
-Verificar instalación:
-
-```bash
-composer -V
-```
-
-Descarga oficial:
-https://getcomposer.org
-
----
-
-## 📌 5. Node.js
-
-Necesario para manejar Vite y los recursos frontend.
-
-- Versión mínima: **18**
-- Recomendado: **20 o superior**
-
-Verificar versión:
-
-```bash
-node -v
-npm -v
-```
-
----
-
-## 📌 6. Base de Datos
-
-Laravel soporta:
-
-- MySQL 5.7+
-- MySQL 8+ (Recomendado)
-- PostgreSQL
-- SQLite
-- SQL Server
-
-Si usas XAMPP:
-- MySQL
-- phpMyAdmin
-
----
-
-## 📌 7. Git (Recomendado)
-
-Para control de versiones.
-
-Verificar instalación:
+Comando para verificar version 
 
 ```bash
 git --version
 ```
 
----
+## 📌 3. Crearse una cuenta en Github
 
-# 🛠 Instalación del Proyecto Laravel
+https://github.com/
 
-## 1️⃣ Crear proyecto
+## 📌 4. Instalar XAMPP Version 8.2.12
 
-```bash
-composer create-project laravel/laravel nombre-proyecto
-```
+https://www.apachefriends.org/download.html
 
-## 2️⃣ Ingresar al proyecto
+## 📌 5. Instalar composer 
 
-```bash
-cd nombre-proyecto
-```
+https://getcomposer.org/
 
-## 3️⃣ Instalar dependencias frontend
+## 📌 6. Instalar Node.js Version >= 24
 
-```bash
-npm install
-```
+https://nodejs.org/en/download
 
-## 4️⃣ Ejecutar servidor local
+## 📌 7. Instalar Postman
 
-```bash
-php artisan serve
-```
+https://www.postman.com/downloads/
 
-## 5️⃣ Ejecutar Vite
+## 📌 8. Visual Studio Code
 
-```bash
-npm run dev
-```
+https://code.visualstudio.com/Download
 
----
 
-# 📊 Versiones Recomendadas
-
-| Software  | Versión Mínima | Recomendado |
-|-----------|---------------|-------------|
-| PHP       | 8.1           | 8.2 / 8.3   |
-| Node.js   | 18            | 20+         |
-| MySQL     | 5.7           | 8.0+        |
-| Composer  | Última        | Última      |
-
----
-
-# ✅ Entorno Listo
-
-Si todos los requisitos están correctamente instalados, el proyecto Laravel debería ejecutarse sin problemas en:
-
-```
-http://127.0.0.1:8000
-```
-
----
